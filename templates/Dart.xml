@@ -1,0 +1,35 @@
+<templateSet group="Dart">
+  <template name="prnt" value="debugPrint(&quot;$CLASS_NAME_METHOD_NAME$: $END$&quot;);" description="prints the current class and method name to standard out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name=".pui" value=".putIfAbsent($TEXT1$, () =&gt; $TEXT2$);" description="Map.putIfAbsent(k, () =&gt; v)" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="sclass" value="class $CLASS$ {&#10;    static final $CLASS$ _mInstance = $CLASS$._internal();&#10;    factory $CLASS$() =&gt; _mInstance;&#10;    $CLASS$._internal();&#10;}" description="Snippet for singleton class" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="forin" value="for ($T$ $ITERATOR$ in $LIST$) {&#10;    $END$&#10;} " description="for element in list" toReformat="false" toShortenFQNames="true">
+    <variable name="T" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITERATOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logd" value="debugPrint(&quot;$CLASS_NAME_METHOD_NAME$: $END$&quot;);" description="debugPrint()" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

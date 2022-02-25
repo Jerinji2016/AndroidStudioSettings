@@ -1,0 +1,47 @@
+<templateSet group="Flutter">
+  <template name="pof" value="$CLASS$ $classV$ = Provider.of&lt;$CLASS$&gt;(context)$X$;$END$" description="Get instance of Provider class" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="classV" expression="camelCase(CLASS)" defaultValue="" alwaysStopAt="false" />
+    <variable name="X" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="$." value="${$END$}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="ifj" value="if(json[$KEY$] != null) &#10;      map.putIfAbsent($KEY$, () =&gt; Utils.getJsonEncodedString(json, $KEY$, &quot;&quot;));&#10;  $END$" description="check and add from json map" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="mof" value="MediaQuery.of(context).$END$" description="MediaQuery of context" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="thoc" value="Theme.of(context).colorScheme.$END$" description="ThemeData of context -&gt; colorScheme" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="poff" value="$CLASS$ $classV$ = Provider.of&lt;$CLASS$&gt;(context, listen: false)$X$;$END$" description="Get instance of Provider class with false listener" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="classV" expression="camelCase(CLASS)" defaultValue="" alwaysStopAt="true" />
+    <variable name="X" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="pofi" value="$PROVIDER$ $OBJ$ = Provider.of&lt;$PROVIDER$&gt;($CONTEXT$);" description="created class instance of provider" toReformat="false" toShortenFQNames="true">
+    <variable name="PROVIDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBJ" expression="camelCase(PROVIDER)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTEXT" expression="" defaultValue="&quot;context&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
