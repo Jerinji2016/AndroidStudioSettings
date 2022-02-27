@@ -1,7 +1,17 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="event_account_picker" type="AUTO_DETECTED" />
+      <mapping ext="run" type="JAVA" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="hexnodedb" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="db-journal" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="db" approved="true" type="SqlDelight Database" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
