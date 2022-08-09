@@ -32,4 +32,11 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="loge" value="debugPrint(&quot;$CLASS_NAME_METHOD_NAME$: ERROR: $exception$&quot;);" description="error debugPrint()" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
+    <variable name="exception" expression="" defaultValue="\$e" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
