@@ -26,7 +26,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logd" value="print(&quot;$CLASS_NAME_METHOD_NAME$: $END$&quot;);" description="debugPrint()" toReformat="false" toShortenFQNames="true">
+  <template name="logd" value="debugPrint(&quot;$CLASS_NAME_METHOD_NAME$: $END$&quot;);" description="debugPrint()" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
     <context>
       <option name="DART" value="true" />
