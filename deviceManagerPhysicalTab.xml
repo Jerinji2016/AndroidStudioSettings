@@ -12,6 +12,17 @@
         <target value="Android API 32" />
         <api value="32" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-f320e65a-JadQRe._adb-tls-connect._tcp." />
+          </Key>
+        </key>
+        <name value="OnePlus HD1901" />
+        <target value="Android API 32" />
+        <api value="32" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
