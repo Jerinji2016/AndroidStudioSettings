@@ -5,6 +5,7 @@
       <mapping pattern="_bill_footer" type="AUTO_DETECTED" />
       <mapping pattern="utils" type="AUTO_DETECTED" />
       <mapping pattern="_order_bill_view" type="AUTO_DETECTED" />
+      <mapping pattern="_view_order_details_dialog" type="Dart" />
       <mapping ext="run" type="JAVA" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
