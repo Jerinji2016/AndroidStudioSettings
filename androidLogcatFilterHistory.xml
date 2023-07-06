@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="com.akcs.android.mobile" />
+    <option name="mostRecentlyUsed" value="com.elaachi" />
     <option name="nonFavorites">
       <list>
+        <option value="com.elaachi" />
         <option value="com.akcs.android.mobile" />
       </list>
     </option>
