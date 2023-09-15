@@ -22,9 +22,13 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="Jerin-Jimmy" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Idean/Flutter-Neumorphic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Jerin\Documents\Flutter Projects" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/Projects/Flutter" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
