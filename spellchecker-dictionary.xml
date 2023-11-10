@@ -5,8 +5,10 @@
       <w>appbundle</w>
       <w>cashfree</w>
       <w>dineazy</w>
+      <w>domainvalues</w>
       <w>elaachi</w>
       <w>hostedtoolcache</w>
+      <w>iata</w>
       <w>jerin</w>
       <w>kots</w>
       <w>lato</w>
@@ -14,6 +16,7 @@
       <w>neumorphic</w>
       <w>prnt</w>
       <w>rvcs</w>
+      <w>servicerequest</w>
       <w>subosito</w>
       <w>webcontent</w>
     </words>
