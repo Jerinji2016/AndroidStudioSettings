@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="com.jerin.prnt" />
+    <option name="mostRecentlyUsed" value="package:mine | JERIN" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine | JERIN" />
         <option value="com.jerin.prnt" />
         <option value="com.elaachi" />
         <option value="com.akcs.android.mobile" />
