@@ -45,4 +45,10 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="logw" value="debugPrint(&quot;$CLASS_NAME_METHOD_NAME$: ⚠️WARNING: $END$&quot;);" description="debugPrint()" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME_METHOD_NAME" expression="" defaultValue="dartClassNameMethodName" alwaysStopAt="false" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
