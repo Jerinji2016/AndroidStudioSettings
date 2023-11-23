@@ -1,7 +1,7 @@
 <templateSet group="Flutter">
   <template name="pof" value="$CLASS$ $classV$ = Provider.of&lt;$CLASS$&gt;(context)$X$;$END$" description="Get instance of Provider class" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="classV" expression="camelCase(CLASS)" defaultValue="" alwaysStopAt="false" />
+    <variable name="classV" expression="camelCase(CLASS)" defaultValue="" alwaysStopAt="true" />
     <variable name="X" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
