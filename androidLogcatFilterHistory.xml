@@ -1,13 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="flutter" />
+    <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
+        <option value="com.elaachi" />
         <option value="flutter" />
         <option value="package:com.jerin.prnt | Flutter USB Printer" />
         <option value="package:mine | JERIN" />
         <option value="com.jerin.prnt" />
-        <option value="com.elaachi" />
         <option value="com.akcs.android.mobile" />
       </list>
     </option>
