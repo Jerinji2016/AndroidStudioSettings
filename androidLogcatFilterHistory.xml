@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="package:com.elaachi.opus.runner.debug " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.elaachi.opus.runner.debug " />
         <option value="com.elaachi" />
         <option value="flutter" />
         <option value="package:com.jerin.prnt | Flutter USB Printer" />
